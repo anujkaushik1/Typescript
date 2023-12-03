@@ -1,0 +1,10 @@
+var a = 10;
+a = 'hello';
+a = true;
+a = { hello: 'world' };
+console.log(a);
+console.log('---------------------------------------');
+var num = 5;
+num = 'hello';
+num.map(function (ele) { return console.log(ele); });
+console.log(num);
