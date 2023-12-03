@@ -1,3 +1,4 @@
+// const test = (cou : string)
 var details = {
     name: 'Anuj',
     age: 10,
