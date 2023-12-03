@@ -15,4 +15,14 @@ num.map((ele) => console.log(ele))
 
 console.log(num)
 
+// use case 
+// can use properties of specific datatypes based on what data is coming
+if(typeof num == 'string'){
+    num.length
+}
+
+if(typeof num == 'object'){
+    Object.keys(num)
+}
+
 
