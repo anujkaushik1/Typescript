@@ -50,6 +50,24 @@ const areEqual : boolean = str1 === str2;
 
 console.log(areEqual)
 
+console.log('')
+console.log('')
+
+const isEven = (num : number) : boolean => {
+    return num % 2 == 0;
+}
+
+console.log(isEven(7))
+console.log(isEven(18))
+
+const isDivisible = (a : number) : boolean => {
+
+    const res : boolean = a % 4 === 0 && a % 8 === 0;
+    return res;
+}
+
+console.log(isDivisible(20))
+
 
 
 

@@ -30,3 +30,15 @@ var str1 = 'hello world';
 var str2 = 'hello worald';
 var areEqual = str1 === str2;
 console.log(areEqual);
+console.log('');
+console.log('');
+var isEven = function (num) {
+    return num % 2 == 0;
+};
+console.log(isEven(7));
+console.log(isEven(18));
+var isDivisible = function (a) {
+    var res = a % 4 === 0 && a % 8 === 0;
+    return res;
+};
+console.log(isDivisible(20));
