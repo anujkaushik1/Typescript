@@ -17,10 +17,10 @@ console.log(booleanValue);
 
 // function overloading sol =>
 
-const add = <T, U>(a : T, b : U) => {
+const add = <T, U>(a : T, b : U, c : boolean) => {
     console.log(typeof a)
     console.log(typeof b)
 }
 
-add('anuj', 22);
-add(54, true);
+add('anuj', 22, false);
+add(54, true, false);
